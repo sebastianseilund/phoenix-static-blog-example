@@ -2,7 +2,7 @@
 
 An example of a Phoenix application using static Markdown documents to host a simple blog.
 
-[See the blog post](http://www.sebastianseilund.com/)
+[Read the blog post](http://www.sebastianseilund.com/static-markdown-blog-posts-with-elixir-phoenix) for more information.
 
 
 ## Phoenix instructions
