@@ -1,4 +1,11 @@
-# StaticBlog
+# phoenix-static-blog-example
+
+An example of a Phoenix application using static Markdown documents to host a simple blog.
+
+[See the blog post](http://www.sebastianseilund.com/)
+
+
+## Phoenix instructions
 
 To start your Phoenix app:
 
