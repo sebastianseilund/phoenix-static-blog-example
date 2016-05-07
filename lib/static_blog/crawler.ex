@@ -6,6 +6,6 @@ defmodule StaticBlog.Crawler do
   end
 
   def sort(a, b) do
-    Timex.compare(a.date, b.date) > 0
+    Calendar.Date.diff(a.date, b.date) > 0
   end
 end
