@@ -29,7 +29,7 @@ defmodule StaticBlog.Post do
   defp extract({props, content}, post) do
     %{post |
       title: get_prop(props, "title"),
-      date: Timex.parse!(get_prop(props, "date"), "{ISOdate}"),
+      date: get_prop(props, "date") |> Calendar.Date.Parse.iso8601!,
       intro: get_prop(props, "intro"),
       content: content}
   end

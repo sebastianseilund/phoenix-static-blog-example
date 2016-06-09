@@ -1,5 +1,5 @@
-%{"certifi": {:hex, :certifi, "0.4.0"},
-  "combine": {:hex, :combine, "0.7.0"},
+%{"calendar": {:hex, :calendar, "0.14.1"},
+  "certifi": {:hex, :certifi, "0.4.0"},
   "cowboy": {:hex, :cowboy, "1.0.4"},
   "cowlib": {:hex, :cowlib, "1.0.2"},
   "earmark": {:hex, :earmark, "0.2.1"},
@@ -16,6 +16,5 @@
   "poison": {:hex, :poison, "2.1.0"},
   "ranch": {:hex, :ranch, "1.2.1"},
   "ssl_verify_fun": {:hex, :ssl_verify_fun, "1.1.0"},
-  "timex": {:hex, :timex, "2.1.4"},
   "tzdata": {:hex, :tzdata, "0.5.7"},
   "yamerl": {:git, "https://github.com/yakaz/yamerl.git", "ae810a808817d9482b4628ae3e20d746e3729fe0", []}}
